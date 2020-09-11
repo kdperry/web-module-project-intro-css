@@ -84,17 +84,18 @@
 }
 h1{
   font-family: 'Chelsea Market';
-  font-size: 80px;
+  font-size: 65px;
 }
 .Logo p{
 font-size: 20px;
 max-height: 50%;
-max-width: 90%;
+max-width: 75%;
 text-align: center;
 }
+
 p{
     font-family: 'Roboto Mono';
-    font-size: 16px;
+    font-size: 18px;
 }
 .about{
   background:#DDB9A3;
