@@ -1,145 +1,146 @@
 *{
-    max-width: 1200px;
-    margin: auto;
-  }
-  .container{
-      margin: 0 auto;
-      width: 1200px;
-  }
-  .container header nav{
-      margin: 0 10px;
-      border: 1px solid white;
-      padding: 20px;
-      display: inline-block;
-      border-radius: 20px;
-      color: white;
-      text-decoration: none;
-      margin-bottom: 20px;
-  }
-  .button1:hover{
-    background: blue;
-    color: pink;
-    animation-name: example;
-    animation-duration: 6s;
-  }
-  @keyframes example2{
-    from {color: white;}
-    to {color: purple;}
-  }
-  .button2:hover{
-    background: magenta;
-    color: pink;
-    animation-name: example;
-    animation-duration: 6s;
-  }
-  @keyframes example2{
-    from {color: white;}
-    to {color: purple;}
-  }
-  .button3:hover{
-    background: teal;
-    color: pink;
-    animation-name: example;
-    animation-duration: 6s;
-  }
-  @keyframes example2{
-    from {color: white;}
-    to {color: purple;}
-  }
-  .button1{
-      background-color: #FF764E;
-      color: white;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin-right: 20px;
-      border-radius: 12px;
-      font-family: 'Roboto Mono';
-  }
-  .button2{
-      background-color: #5ED3EB;
-      color: white;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-     margin-left: 200px;
+  max-width: 1000px;
+  margin: auto;
+}
+.container{
+    margin: 0 auto;
+    width: 1000px;
+}
+.container header nav{
+    margin: 0 10px;
+    border: 1px solid white;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.button1:hover{
+  background: blue;
+  color: pink;
+  animation-name: example;
+  animation-duration: 6s;
+}
+@keyframes example2{
+  from {color: white;}
+  to {color: purple;}
+}
+.button2:hover{
+  background: magenta;
+  color: pink;
+  animation-name: example;
+  animation-duration: 6s;
+}
+@keyframes example2{
+  from {color: white;}
+  to {color: purple;}
+}
+.button3:hover{
+  background: teal;
+  color: pink;
+  animation-name: example;
+  animation-duration: 6s;
+}
+@keyframes example2{
+  from {color: white;}
+  to {color: purple;}
+}
+.button1{
+    background-color: #FF764E;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 20px;
+    border-radius: 12px;
+    font-family: 'Roboto Mono';
+}
+.button2{
+    background-color: #5ED3EB;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   margin-left: 100px;
+   border-radius: 12px;
+   font-family: 'Roboto Mono';
+}
+.button3{ 
+    background-color: #FFCD69;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+     margin-left: 100px;
      border-radius: 12px;
      font-family: 'Roboto Mono';
-  }
-  .button3{ 
-      background-color: #FFCD69;
-      color: white;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-       margin-left: 200px;
-       border-radius: 12px;
-       font-family: 'Roboto Mono';
-  }
-  h1{
-    font-family: 'Chelsea Market';
-    font-size: 80px;
-  }
-.Logo p{
-  font-size: 20px;
-  max-height: 50%;
-  text-align: center;
 }
-  p{
-      font-family: 'Roboto Mono';
-      font-size: 16px;
+h1{
+  font-family: 'Chelsea Market';
+  font-size: 80px;
+}
+.Logo p{
+font-size: 20px;
+max-height: 50%;
+max-width: 90%;
+text-align: center;
+}
+p{
+    font-family: 'Roboto Mono';
+    font-size: 16px;
+}
+.about{
+  background:#DDB9A3;
+  text-align:center;
+  padding: 20px;
+  max-width: 100%;
+  position: relative;
+  top: 120px;
+  margin-right: 20px;
+  margin-left: 20px;
   }
-  .about{
-    background:#DDB9A3;
-    text-align:center;
-    padding: 20px;
-    max-width: 100%;
-    position: relative;
-    top: 150px;
-    margin-right: 20px;
-    margin-left: 20px;
-    }
 .footer{
-    background: #F9E7DC;
-    max-width: 100%;
-    max-height: 100%;
+  background: #F9E7DC;
+  max-width: 100%;
+  max-height: 100%;
 }
 .Logo img{
-  margin-left: 0px;
-  display: block;
-    max-width: 25%;
-    max-height: 25%;
-    border-radius: 50%;
-   float: left;
-  }
-img{
-  max-width: 20%;
-  max-height: 20%;
-}
-body{
-  text-align: center
-}
-.facts{
-   position: relative;
-   top: 170px;
-}
-.facts p{
+margin-left: 0px;
+display: block;
   max-width: 25%;
   max-height: 25%;
-  padding: 50px
+  border-radius: 50%;
+ float: left;
+}
+img{
+max-width: 20%;
+max-height: 20%;
+object-position: center;
+}
+body{
+text-align: center
+}
+.facts{
+ position: relative;
+ top: 170px;
+}
+.facts p{
+max-width: 25%;
+max-height: 25%;
+padding: 50px;
 }
 .footer img{
-  max-width: 100%;
-  max-height: 5%;
-  object-fit: scale-down;
+ max-width: 100%;
 }
 .footer{
-   position: relative;
-    top: 170px;
+position: relative;
+top: 200px;
+
 }
